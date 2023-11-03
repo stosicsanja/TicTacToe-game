@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.kontejner {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  text-align: center;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+.celija {
+  border: 1px solid grey;
+  cursor: pointer;
+  padding: 25px;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  background-color: beige;
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  color: brown;
+}
+
+button {
+  border: 1px solid gray;
+  background-color: beige;
+  color: grey;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 18px;
+}
+
+#statusTekst {
+  margin: 20px;
+  font-size: 20px;
+  color: brown;
+}
